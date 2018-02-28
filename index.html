@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Services</title>
+
+  <!-- Connects the html page to the external stylesheet page -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <!-- enables family fonts to be activated  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- jquery link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--  -->
+  <link rel="stylesheet" type="text/css" href="phone_stylesheet.css">
+
+  <!--  -->
+  <link rel="stylesheet" type="text/css" href="tablet_stylesheet.css">
+</head>
+
+<body>
+  <!-- this section will occupy the top section of the browser ,within it contains a navbar -->
+  <header id="navbar_holder">
+    <!-- navbar consist of dummy anchor tags and the information will display within an unordered list -->
+    <nav id="navbar">
+      <ul>
+        <!-- navbar image -->
+        <li id="navbar_logo"><img src="images/navbar.png" alt="" width="190px" height="140px"></li>
+
+        <!-- navbar information -->
+        <div class="aligned_navbar_text">
+          <li ><a href="#">Media</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <!-- navbar serach engine -->
+          <li id="search"><i class="fa fa-search" style="font-size:18px;color:white"></i></li>
+        </div>
+
+      </ul>
+    </nav>
+    <!-- The end of the navbar -->
+
+    <!-- header text from h1 - h3 -->
+    <aside id="header_text">
+      <h1>Company X Online Services</h1>
+      <h3>Online Survey & Elearning Services Provider</h3>
+
+    </aside>
+  </header>
+  <!-- The end of header tag  -->
+
+  <!-- top section content -->
+  <div id="survey_content_holder">
+
+    <h1>Select a option</h1>
+    <!--  servey content-->
+    <aside class="survey_layout" id="servey">
+      <!--  survey main header-->
+      <h2>Survey</h2>
+
+      <!-- survey image -->
+      <div id="survey_chart_holder">
+        <img id="survey_button" src="images/survey_icon.png" alt="Survey Pie Chart" width="200px" height="200px">
+      </div>
+
+      <!-- survey button -->
+      <div id="survey_button_holder">
+        <button  type="button" name="button">Start Survey</button>
+      </div>
+    </aside>
+    <!-- end of survey content -->
+
+    <!--  report content holder-->
+    <aside class="survey_layout" id="report">
+      <!--  report main header-->
+      <h2>Report</h2>
+
+      <!-- report image -->
+      <div id="survey_chart_holder">
+        <img src="images/report_icon.png" alt="Survey Pie Chart" width="200px" height="200px">
+      </div>
+
+      <!-- report button -->
+      <div id="survey_button_holder">
+        <button type="button" name="button">Access Report</button>
+      </div>
+    </aside>
+    <!-- end of report content -->
+
+    <!-- Elearning content holder-->
+    <aside class="survey_layout" id="Elearning">
+      <!--  Elearning main header-->
+      <h2>Elearning</h2>
+
+      <!-- Elearning image -->
+      <div id="survey_chart_holder">
+        <img src="images/eleaning_icon.png" alt="Survey Pie Chart" width="200px" height="200px">
+      </div>
+
+      <!-- Elearning button -->
+      <div id="survey_button_holder">
+        <button type="button" name="button">Access Elearning</button>
+      </div>
+    </aside>
+    <!-- end of Elearning content -->
+  </div>
+  <!--end of survey_content_holder  -->
+
+  <!--  hidden text -->
+  <section id="hidden_content">
+
+    <!-- hero text will appear here -->
+    <header id="hero_text">
+      <h4>Survey and <br>Elearning services</h4>
+    </header>
+
+    <div id="hidden_text_section">
+      <h3>Instructions</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <button  id="ready_button" type="button" name="button"> Ready to Start Survey</button> <button id="cancel_button" type="button" name="button">No Thanks</button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer_holder">
+
+    <!-- About section holder -->
+    <div class="footer_layout" id="footer_about_content">
+      <!-- content main header -->
+      <h2>About</h2>
+
+      <!--  listed about details-->
+      <li>Vision and Values</li>
+      <li>History</li>
+      <li>Directors</li>
+      <li>Leadership Team</li>
+      <li>Awards & Achievements</li>
+      <li>Responsible Business</li>
+      <li>Company Structure</li>
+      <li>Investor Relations</li>
+      <li>Careers</li>
+    </div>
+    <!-- end of about section -->
+
+    <!-- contact section holder -->
+    <div class="footer_layout" id="footer_contact_content">
+      <!-- content main header -->
+      <h2>Contact</h2>
+
+      <!--  listed about details-->
+      <li>Contact Company X</li>
+      <li>Client Care Offices</li>
+      <li>Compliments and Complaints</li>
+      <li>Company X Business Directory</li>
+    </div>
+    <!--  end of contact section-->
+
+    <!-- media section holder -->
+    <div class="footer_layout" id="footer_media_content">
+      <!-- content main header -->
+      <h2>Media</h2>
+
+      <!--  listed media details-->
+      <li>Expert Opinions</li>
+      <li>Media Releases</li>
+      <li>Media Contacts</li>
+      <li>Newsletters</li>
+      <li>Blog</li>
+    </div>
+    <!--  end of media section-->
+
+    <!-- social media section holder -->
+    <div class="footer_layout" id="footer_social_media">
+      <!-- content main header -->
+      <h2>Connect</h2>
+
+      <!-- social media icons  -->
+      <table>
+        <tr>
+          <td><i class="fa fa-facebook-official" style="font-size:50px;color:white"></i></td>
+          <td><i class="fa fa-linkedin-square" style="font-size:50px;color:white"></i></td>
+          <td><i class="fa fa-twitter-square" style="font-size:50px;color:white"></i></td>
+          <td><i class="fa fa-youtube-square" style="font-size:50px;color:white"></i></td>
+        </tr>
+      </table>
+
+
+      <aside id="footer_copyright">
+        <li>Copyright © 2018 </li>
+        <li>All rights reserved. </li>
+        <li>Company X is a Licensed<br> Online Survey & Elearning <br>Services Provider and a<br> Registered Credit Provider.</li>
+      </aside>
+    </div>
+    <!--  end of media section-->
+  </footer>
+  <!-- the end of the footer tag -->
+
+  <!-- enables jquery to be coded -->
+  <script>
+
+  // allows the text to fade in
+  $(document).ready(function(){
+    $("#survey_button_holder").click(function(){
+        $("#hidden_content").slideDown(2000),$("#survey_content_holder").hide(2000);
+    });
+});
+
+// only applies on the no thanks button
+$(document).ready(function(){
+    $("#cancel_button").click(function(){
+        $("#hidden_content").slideUp(2000),$("#survey_content_holder").show(2000);
+    });
+});
+
+  </script>
+
+</body>
+</html>

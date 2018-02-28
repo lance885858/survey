@@ -1,0 +1,355 @@
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 0px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+  #phone_social_media{
+    background-color: red;
+    height: 100px;
+  }
+
+  /* Navbar holder :Inserting a background image .the tag consist of  a suitable height and width of 100%;*/
+  #navbar_holder{
+    background-image: url("images/nav_icon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1050px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-right: 50px;
+  }
+
+  /* Navbar */
+  #navbar{
+    height: 100px;
+  }
+
+  /* removing the bullets from the unordered list */
+  #navbar ul{
+    list-style-type: none;
+  }
+
+  /*  aligning the information horizontal*/
+  #navbar li{
+    float: left;
+  }
+
+  /* classed navbar text aligned away from the navbar icon */
+  .aligned_navbar_text{
+    margin-left: 40%;;
+    padding-top: 20px;
+    height: 200px;
+  }
+
+  .aligned_navbar_text li{
+    padding-left: 30px;
+    font-size: 45px;
+
+  }
+
+  #search{
+    display: none;
+  }
+
+  /* removing the underline of the anchor tags and removing the blue default color */
+  .aligned_navbar_text a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .aligned_navbar_text a:hover{
+    color: lightgreen;
+  }
+
+  /* navbar logo */
+  #navbar_logo{
+    height: 300px;
+  }
+
+  /*  */
+  #navbar_logo img{
+
+  }
+
+
+  /*  setting a height to the header text holder aswell as a padding top*/
+  #header_text{
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 400px;
+    /* background-color: yellow; */
+  }
+
+  /*  Aligning the header text and giving it a suitable blue rgb color  */
+  #header_text h1{
+    color:lightblue;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #header_text h3{
+    margin-left: 100px;
+    color:lightblue;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+  /* survey content holder */
+  #survey_content_holder{
+    background-color: white;
+    height:1800px;
+    width: 100%;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    padding-right: 50px;
+  }
+
+  #survey_content_holder img{
+    width: 300px;
+    height: 300px;
+  }
+
+  /*  */
+  #survey_content_holder h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 156, 255);
+    font-size: 40px;
+
+  }
+
+  /*servey layout  */
+  .survey_layout{
+    float: left;
+    width: 33.33%;
+  }
+
+  /* main headers aligned to the center */
+  .survey_layout h2{
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 35px;
+  }
+
+  /*  pie chart*/
+  #survey_chart_holder{
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  /* survey button holder */
+  #survey_button_holder{
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  /*  survey button*/
+  #survey_button_holder button{
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+    background: linear-gradient(to bottom right, blue, white);
+  }
+
+  /* survey button hover */
+  #survey_button_holder button:hover{
+    color: black;
+    background: linear-gradient(to bottom right,white, blue);
+    box-shadow: 5px 5px 5px blue;
+  }
+
+  /* servey holder */
+  #servey{
+    height: auto;
+    width: 100%;
+    padding-right: 50px;
+  }
+
+  /* report holder */
+  #report{
+    height: 400px;
+    width: 100%;
+    padding-right: 50px;
+    height: auto;
+  }
+
+  /* eleaning holder */
+  #Elearning{
+    height: 400px;
+    width: 100%;
+    padding-right: 50px;
+    height: auto;
+  }
+
+
+  /* footer holder */
+  #footer_holder{
+    background-color: rgb(0, 60, 102);
+    height: 2500px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 50px;
+  }
+
+  #footer_holder h2{
+    text-align: center;
+  }
+
+
+
+  /* removing bullets */
+  #footer_holder li{
+    list-style-type: none;
+    /* padding-left: 300px; */
+    font-size: 27px;
+    text-align: center;
+  }
+
+
+  /* about footer section */
+  #footer_about_content {
+    width: 100%;
+    padding-right: 50px;
+    font-size: 40px;
+    height: auto;
+  }
+
+
+  /* contact footer details */
+  #footer_contact_content{
+    width: 100%;
+    padding-right: 50px;
+    font-size: 40px;
+    height: auto;
+  }
+
+  /* media footer contact */
+  #footer_media_content{
+    width: 100%;
+    padding-right: 50px;
+    font-size: 40px;
+    height: auto;
+  }
+
+  /*  */
+  #footer_social_media{
+    width: 100%;
+    padding-right: 50px;
+    font-size: 40px;
+    height: auto;
+  }
+
+  /* social media links */
+  #footer_social_media table{
+    margin-left: 60px;
+    display: none;
+  }
+
+  #footer_social_media td{
+    padding-left: 10px;
+  }
+
+  /*  copy right aligning*/
+  #footer_copyright{
+    padding-top: 50px;
+  }
+
+  #footer_copyright li{
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  /* hidden content */
+  #hidden_content{
+    height: 1300px;
+    width: 100%;
+    padding-right: 50px;
+  }
+
+  /*  */
+  #hero_text{
+    background-image: url("images/hero_icon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 500px;
+    padding-top: 40px;
+    margin-left: 7%;
+    margin-right: 10%;
+    border: 3px solid lightblue;
+    box-shadow: 6px 6px 6px lightblue;
+    opacity: 0.6;
+  }
+
+  #hero_text:hover{
+    opacity: 1;
+  }
+
+  /*  */
+  #hero_text h4{
+    margin-left: 5%;
+    margin-top: 40%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+  }
+
+
+  /* hidden paragraphs */
+  #hidden_content p{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+  }
+
+  /* hidden main headers */
+  #hidden_content h3{
+    color: rgb(0, 102, 204);
+    font-size: 35px;
+  }
+
+  /* hidden text holder */
+  #hidden_text_section{
+    height: auto;
+  }
+
+  /* hidden content buttons */
+  #hidden_content button{
+    width: 350px;
+    height: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 33px;
+    background: linear-gradient(to bottom right, blue, white);
+    margin-left: 38%;
+    margin-bottom: 30px;
+  }
+
+  /* button hover */
+  #hidden_content button:hover{
+    color: black;
+    background: linear-gradient(to bottom right,white, blue);
+    box-shadow: 5px 5px 5px blue;
+  }
+
+
+}

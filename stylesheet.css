@@ -1,0 +1,308 @@
+/*  This is my external stylesheet*/
+
+/* body   */
+body{
+  margin:0;
+  padding-top: 0px;
+}
+
+/*  */
+
+
+/* Navbar holder :Inserting a background image .the tag consist of  a suitable height and width of 100%;*/
+#navbar_holder{
+  background-image: url("images/nav_icon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  padding-top: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Navbar */
+#navbar{
+  height: 100px;
+}
+
+/* removing the bullets from the unordered list */
+#navbar ul{
+  list-style-type: none;
+}
+
+/*  aligning the information horizontal*/
+#navbar li{
+  float: left;
+}
+
+/* classed navbar text aligned away from the navbar icon */
+.aligned_navbar_text{
+  margin-left: 63%;;
+  padding-top: 20px;
+  }
+
+.aligned_navbar_text li{
+ padding-left: 60px;
+
+}
+
+/* removing the underline of the anchor tags and removing the blue default color */
+.aligned_navbar_text a {
+  color: white;
+  text-decoration: none;
+}
+
+.aligned_navbar_text a:hover{
+  color: lightgreen;
+}
+
+/* navbar logo */
+#navbar_logo{
+  height: 200px;
+}
+
+/*  */
+#navbar_logo img{
+
+}
+
+
+/*  setting a height to the header text holder aswell as a padding top*/
+#header_text{
+  height: 100px;
+  padding-top: 10px;
+}
+
+/*  Aligning the header text and giving it a suitable blue rgb color  */
+#header_text h1,h3{
+  margin-left: 120px;
+  color:white;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+/* survey content holder */
+#survey_content_holder{
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+}
+
+/*  */
+#survey_content_holder h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(51, 156, 255)
+}
+
+/*servey layout  */
+.survey_layout{
+  float: left;
+  width: 33.33%;
+}
+
+/* main headers aligned to the center */
+.survey_layout h2{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: rgb(102, 102, 102);
+}
+
+/* servey holder */
+#servey{
+  height: 400px;
+}
+
+/*  pie chart*/
+#survey_chart_holder{
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* survey button holder */
+#survey_button_holder{
+  text-align: center;
+  padding-top: 5px;
+}
+
+/*  survey button*/
+#survey_button_holder button{
+  width: 200px;
+  height: 45px;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  background: linear-gradient(to bottom right, blue, white);
+}
+
+/* survey button hover */
+#survey_button_holder button:hover{
+  color: black;
+  background: linear-gradient(to bottom right,white, blue);
+  box-shadow: 3px 3px 3px blue;
+}
+
+/* report holder */
+#report{
+  height: 400px;
+}
+
+/* eleaning holder */
+#eleaning{
+  height: 400px;
+}
+
+
+/* footer holder */
+#footer_holder{
+  background-color: rgb(0, 60, 102);
+  height: 350px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+/* removing bullets */
+#footer_holder li{
+  list-style-type: none;
+}
+
+/* about content within the footer */
+.footer_layout{
+  width: 25%;
+  height: 350px;
+  float: left;
+}
+
+/* aligned listed items as well as headers */
+.footer_layout li{
+  padding-left: 70px;
+  color: white;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  h2 footer header*/
+.footer_layout h2{
+  padding-left: 70px;
+  color: rgb(0, 102, 204);
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+
+/* about footer section */
+/* #footer_about_content {
+background-color: white;
+} */
+
+/* contact footer details */
+/* #footer_contact_content{
+background-color: red;
+} */
+
+/* media footer contact */
+/* #footer_media_content{
+background-color: brown;
+} */
+
+/*  */
+/* #footer_social_media{
+background-color: pink;
+} */
+
+/* social media links */
+#footer_social_media table{
+  margin-left: 60px;
+}
+
+#footer_social_media td{
+  padding-left: 10px;
+}
+
+/*  copy right aligning*/
+#footer_copyright{
+  padding-top: 50px;
+}
+
+#footer_copyright li{
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* hidden content */
+#hidden_content{
+  background-color: white;
+  height: 650px;
+  display: none;
+}
+
+/*  */
+#hero_text{
+  background-image: url("images/hero_icon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 300px;
+  padding-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 3px solid lightblue;
+  box-shadow: 3px 3px 3px lightblue;
+  opacity: 0.6;
+}
+
+#hero_text:hover{
+  opacity: 1;
+}
+
+/*  */
+#hero_text h4{
+  margin-left: 50%;
+  margin-top: 10%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* hidden paragraphs */
+#hidden_content p{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/* hidden main headers */
+#hidden_content h3{
+  color: rgb(0, 102, 204);
+}
+
+/* hidden text holder */
+#hidden_text_section{
+  height: auto;
+}
+
+/* hidden content buttons */
+#hidden_content button{
+  width: 200px;
+  height: 45px;
+  color: white;
+  font-family: monospace;
+  font-size: 15.5px;
+  background: linear-gradient(to bottom right, blue, white);
+  margin-left: 9%;
+}
+
+
+/* button hover */
+#hidden_content button:hover{
+  color: black;
+  background: linear-gradient(to bottom right,white, blue);
+  box-shadow: 3px 3px 3px blue;
+}
